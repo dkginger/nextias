@@ -1,0 +1,634 @@
+@media (min-width: 1025px) {
+    .ps-xl-5 {
+        padding-left: 3rem !important;
+    }
+
+    .ms-xl-5 {
+        margin-left: 3rem !important;
+    }
+
+    .mt-xl-0 {
+        margin-top: 0 !important;
+    }
+
+    .px-xl-5 {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+
+    .px-xl-4 {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+    .p-xl-4 {
+        padding: 1.5rem !important;
+    }
+
+    .px-xl-3 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+
+}
+@media (min-width: 1000px) and (max-width: 1024px){ 
+    .initiatives-logo-container {
+        height: 120px;
+        border-radius: 60px;
+    }
+    .initiatives-logo-container li {
+        max-width: 95px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .h3, h3 {
+        font-size: calc(1.2rem + .6vw);
+    }
+    .h5, h5 {
+        font-size: 1.35rem;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .header-top {
+        text-align: center;
+    }
+    .navbar {
+        padding-bottom: 1rem !important;
+    }
+    .book-a-demo {
+        margin-top: 6rem;
+        min-height: 205px;
+    }
+    .enroll-now-sec {
+        padding: 30px 0;
+    }
+    .enroll-now {
+        min-height: 230px;
+    }
+    .rank-profile {
+        transform: translateY(-16%);
+    }
+}
+
+
+@media (max-width: 820px) {
+    body {
+        font-size: 15px;
+    }
+    .navbar-collapse {
+        padding-top: 1rem;
+    }
+
+    .nav-right {
+        margin-left: 14px;
+        padding-bottom: 1rem;
+    }
+
+    .sec-pd {
+        padding: 50px 0;
+    }
+
+    .h2,
+    h2 {
+        font-size: calc(1.25rem + .9vw);
+    }
+
+    .h3,
+    h3 {
+        font-size: calc(1.15rem + .6vw);
+        line-height: 1.8rem;
+    }
+
+    .h4,
+    h4 {
+        font-size: calc(1.05rem + .3vw);
+    }
+
+    .h5,
+    h5 {
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+    }
+
+    .header-top {
+        text-align: center;
+    }
+
+    .book-a-demo-image-box {
+        transform: translateY(-15%);
+    }
+
+    .announcement-container {
+        max-width: 100%;
+    }
+
+    .announcement-icon {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        top: -30px;
+        left: 0px;
+    }
+
+    .book-a-demo {
+        margin-top: 3rem;
+    }
+
+    .tab-btn-container li {
+        margin: 0 10px;
+    }
+
+    .enroll-now-sec {
+        padding: 5px 0;
+    }
+
+    .enroll-now {
+        max-width: 100%;
+        left: 0;
+        max-height: 220px;
+    }
+
+    .rank-profile {
+        transform: translateY(-8%);
+    }
+
+    .rank-profile p {
+        font-size: 14px;
+    }
+
+    .downloadTheNextIasAppSlider .font-13 {
+        font-size: 12px;
+    }
+
+    .downloadTheNextIasAppSlider .carousel-control-prev {
+        left: -15px;
+    }
+
+    .downloadTheNextIasAppSlider .carousel-control-next {
+        right: -15px;
+    }
+
+    .text-box {
+        max-width: 195px;
+        min-width: 175px;
+    }
+
+    .star-circle-right {
+        right: -10px;
+    }
+
+    .star-circle-left {
+        left: -10px;
+    }
+
+    .star-circle {
+        width: 35px;
+        height: 35px;
+        top: -20px;
+    }
+
+    .star-circle span {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .book-box-row {
+        height: 360px;
+        transform: translateY(10%);
+    }
+
+    .book-box {
+        width: 130px;
+        height: 130px;
+    }
+
+    .book-box .img-fluid {
+        max-width: 50% !important;
+    }
+
+    .book-box .front,
+    .book-box .back {
+        width: 130px;
+        height: 130px;
+        border-radius: 0.5rem;
+    }
+
+    .second-book .front,
+    .second-book .back {
+        width: 130px;
+        height: 130px;
+    }
+
+    .second-book {
+        top: 0;
+        left: calc(40% - 65px);
+    }
+
+    .book-box .front.top-right {
+        top: -20px;
+        left: 30px;
+    }
+
+    .top-top {
+        top: 20px;
+        left: 30px;
+    }
+
+    .bottom-left {
+        top: 20px;
+        right: 10px;
+    }
+
+    .first-book {
+        left: 2%;
+        bottom: 20%;
+    }
+
+    .third-book {
+        bottom: 27%;
+        right: 7%;
+    }
+
+    .book-box .front {
+        line-height: 130px;
+    }
+
+    .testi-user-main-col {
+        height: 385px;
+    }
+
+    .testimonial-user-box {
+        height: 160px;
+        width: 80px;
+        border-radius: 40px;
+        padding-top: 4rem;
+        margin: 0.3rem 0;
+    }
+
+    .circle-image-container {
+        padding-left: 15%;
+    }
+
+    .ranker-user-pic img {
+        left: 22%;
+        bottom: -30px;
+        transform: rotate(15deg);
+    }
+
+    .initiatives-logo-container {
+        height: 140px;
+        border-radius: 70px;
+    }
+
+    .strip-bg-circle.initiatives-logo-strip-2 {
+        top: -50px !important;
+    }
+
+    .dots-design.initiatives-sec li:nth-child(1) {
+        top: 6%;
+        left: 5%;
+    }
+
+    .ready-to-join .promo-banner-small-circle li:nth-child(1) {
+        left: 36%;
+        top: 7%;
+    }
+
+    .rankers-img {
+        left: 0;
+        top: -1.2rem;
+        transform: rotate(0deg);
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .rankers-img-bg {
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    .ranksers-text {
+        left: 0;
+    }
+
+    .ranker-user-pic img {
+        left: 15%;
+        transform: rotate(0deg);
+        max-width: 90%;
+        height: 195px;
+        width: 195px;
+        object-fit: contain;
+    }
+
+    .watch-success-btn {
+        bottom: 5px;
+        right: 10px;
+    }
+
+    .ranksers-text .rank-no {
+        font-size: 2.25rem;
+    }
+
+    .ranksers-text .rank-cat {
+        font-size: 1rem;
+    }
+
+    .rankers-name {
+        line-height: 1.1rem;
+        margin-top: 130px;
+    }
+
+    .rankers-name.font-13 {
+        font-size: 13px;
+    }
+
+    .footer-first-row {
+        padding-bottom: 30px;
+    }
+
+    .footer-info-text {
+        padding-left: 1.2rem;
+    }
+
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 440px) {
+    .navbar {
+        padding-top: 1rem !important;
+    }
+
+    .home-landing {
+        padding-top: 73.5px;
+    }
+
+    .carousel-indicators {
+        bottom: 1rem;
+    }
+
+    .testi-user-main-col {
+        height: 350px;
+    }
+
+    .testimonial-user-box {
+        height: 150px;
+        padding-top: 3rem;
+    }
+
+    .testimonial-user-box {
+        margin: 7px auto;
+    }
+
+    .circle-image-container {
+        padding-left: 7%;
+    }
+
+    .circle-image-container li:nth-child(6) {
+        bottom: 3%;
+    }
+
+    .photo-video-youtube-promo-banner {
+        min-height: 245px;
+    }
+
+    .icon-box-container li:nth-child(1),
+    .icon-box-container li:nth-child(3) {
+        bottom: -15px;
+    }
+
+    .icon-box-container li:nth-child(1) {
+        left: 0%;
+    }
+
+    .icon-box-container li:nth-child(3) {
+        right: 0%;
+    }
+
+    .icon-box-container li:nth-child(2) {
+        top: -45px;
+    }
+
+    .photo-video-youtube-promo-banner a.btn {
+        bottom: -55px;
+        left: -50px;
+        position: relative;
+    }
+
+    .first-book {
+        left: 4%;
+    }
+
+    .third-book {
+        bottom: 30%;
+        right: 12%;
+    }
+
+    .px-rankers-2 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .ranker-user-pic img {
+        left: 35%
+    }
+
+    .rankers-name {
+        line-height: 1.1rem;
+        margin-top: 5px;
+    }
+
+    .rankers-img {
+        left: 3%;
+        top: -0.2rem;
+        transform: rotate(-10deg);
+        border-radius: 30px;
+        width: 94%;
+    }
+
+    .ranker-user-pic img {
+        left: 33%;
+        transform: rotate(10deg);
+        max-width: 100%;
+        height: 210px;
+        width: 210px;
+    }
+
+    .rankers-img {
+        border-radius: 35px;
+    }
+
+    .rankers-img-bg {
+        height: 70px;
+        border-radius: 35px;
+    }
+
+    .watch-success-btn {
+        bottom: 0;
+        right: 10px;
+    }
+
+    .watch-success-btn {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .rankers-name {
+        line-height: 1.25rem;
+        margin-top: 0;
+    }
+
+    .rankers-name.font-13 {
+        font-size: 15px;
+    }
+
+    .dots-design.initiatives-sec li:nth-child(3) {
+        top: 7%;
+        right: 27%;
+    }
+
+    .dots-design.initiatives-sec li:nth-child(4) {
+        top: 40%;
+    }
+
+    .dots-design.initiatives-sec li:nth-child(4) {
+        top: 33%;
+        right: 6%;
+    }
+
+    .initiatives-logo-container li {
+        margin: 0.75rem 1.5rem;
+    }
+
+    .initiatives-logo-container {
+        height: 210px;
+        border-radius: 45px;
+        padding: 20px 0;
+    }
+
+    .strip-bg-circle.initiatives-logo-strip-2 {
+        top: -30px !important;
+        right: 35px;
+    }
+
+
+    .promo-banner.ready-to-join {
+        max-height: 330px;
+        min-height: 330px;
+    }
+
+    .ready-to-join-img {
+        width: 180px;
+        left: calc(50% - 92px);
+    }
+
+    .ready-to-join-text {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        top: 100%;
+    }
+
+    .extra-top-pd {
+        padding-top: 230px;
+    }
+
+    .book-a-demo {
+        min-height: 500px;
+    }
+
+    .book-a-demo-image-box {
+        transform: translateY(0%);
+    }
+
+    .enroll-now {
+        min-height: 515px;
+    }
+
+    .rank-profile {
+        transform: translateY(0%);
+    }
+
+    .enroll-now .promo-banner-small-circle li:nth-child(1) {
+        right: 84%;
+    }
+
+    .rank-profile p {
+        margin-top: -5px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .feature-container .feature-icon-box,
+    .feature-container .feature-text-box {
+        width: 100% !important;
+    }
+
+    .feature-container .feature-icon-box {
+        min-height: 220px;
+    }
+
+    .feature-icon-box {
+        left: 6.5rem
+    }
+
+    .downloadTheNextIasAppSlider .carousel-control-next,
+    .downloadTheNextIasAppSlider .carousel-control-prev {
+        width: 15%;
+    }
+
+    .download-book-slider-img {
+        max-width: 55% !important;
+    }
+
+    .app-link-btn {
+        padding: 0.3rem 0.75rem;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+    .announcement-icon {
+        width: 60pxpx;
+        height: 60px;
+        line-height: 60px;
+        top: -50px;
+        left: 12px;
+    }
+    .download-app-btn-container {
+        flex-direction: column;
+        max-width: 60%;
+        margin: auto;
+    }
+    .download-app-btn-container div:nth-of-type(1) {
+        margin-bottom: 0.75rem;
+    }
+    .second-book {
+        top: -15px;
+        left: calc(45% - 65px);
+    }
+    .icon-box-container li:nth-child(1) {
+        left: -3%;
+    }
+    .icon-box-container li:nth-child(3) {
+        right: -3%;
+    }
+    .icon-box-container li:nth-child(1), .icon-box-container li:nth-child(3) {
+        bottom: -27px;
+    }
+    .photo-video-youtube-promo-banner .promo-banner-small-circle li:nth-child(1) {
+        left: 12%;
+        bottom: 12%;
+    }
+    .footer .app-link-btn {
+        margin: 5px 5px;
+        padding: 0rem 0.4rem;
+    }
+}

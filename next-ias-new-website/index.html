@@ -1,0 +1,1423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/ico" sizes="32x32" href="assets/images/icons/next-ias-favicon.ico">
+  <title>Next IAS Scratch</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+  <!--============ Start Header ============-->
+  <header class="header bg-white fixed-top">
+
+    <!--header-top-->
+    <div class="container pt-1 header-top d-md-block d-none">
+      <a href="javascript:void()" class="header-top-call-link text-sm text-decoration-none"><i
+          class="fa-solid fa-phone"></i> 8081300200</a>
+    </div>
+
+    <!--nav-->
+    <nav class="navbar navbar-expand-xl bg-white p-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/next-ias-logo.png" width="" height="30"
+            alt="nex ias"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Test Series
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Current Affairs</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Student Corner</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Centres</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="d-flex">
+            <ul class="nav nav-right">
+              <li><button class="btn btn-sm me-2 nav-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </li>
+              <li><a href="javascript:void();" class="btn btn-sm btn-danger-transparent me-2"><i
+                    class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href="javascript:void();" class="btn btn-sm btn-danger-transparent fw-500">Student Login</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--============ End Header ============-->
+
+
+  <!--============ Start Fix Right Bottom Link ============-->
+  <div class="fix-right-bottom-link position-fixed">
+    <ul class="p-0 m-0">
+      <li class="text-end"><button class="btn btn-md btn-danger shadow-sm mb-2"><i
+            class="fa-solid fa-robot"></i></button></li>
+      <li><button class="btn btn-md btn-danger shadow-sm mb-2">Enroll Now&nbsp;</button></li>
+      <li><button class="btn btn-md btn-danger-transparent bg-white shadow-sm">Quick Links</button></li>
+    </ul>
+  </div>
+  <!--============ End Fix Right Bottom Link ============-->
+
+
+  <!--============ Home Landing ============-->
+  <div class="home-landing position-relative">
+    <div id="homeLandingSlider" class="homeLandingSlider carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeLandingSlider" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#homeLandingSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#homeLandingSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#homeLandingSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#homeLandingSlider" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url(assets/images/home-slider/sl-3.jpg);">
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/images/home-slider/sl-2.jpg);">
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/images/home-slider/sl-1.jpg);">
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/images/home-slider/sl-3.jpg);">
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/images/home-slider/sl-2.jpg);">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#homeLandingSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon-custom shadow-sm" aria-hidden="true"><i
+            class="fa-solid fa-arrow-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#homeLandingSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon-custom" aria-hidden="true"><i
+            class="fa-solid fa-arrow-right"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+    <div class="home-landing-bottom position-absolute"></div>
+  </div>
+  <!--============ End Home Landing ============-->
+
+  <!--============ Daily Quiz ============-->
+  <section class="bg-light-blue sec-pd">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6 col-md-12">
+          <div class="row gy-4 justify-content-center px-xl-0 px-md-2">
+            <div class="col-md-6 col-lg-5 col-6 row-eq-height">
+              <div class="rounded p-2 shadow-sm bg-white">
+                <div class="rounded overflow-hidden bg-light mb-2">
+                  <img src="assets/images/india-map.jpg" width="" height="" alt="img" class="img-fluid">
+                </div>
+                <p class="font-13 line-camp line-camp-2 mb-0">CSE report on forest cover. Steps taken by Goverment of
+                  India.</p>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <a href="#" class="fw-500 font-13 read-more-link danger-more-link ">Read More</a>
+                  <span class="circle-tag">CA</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-6 row-eq-height">
+              <div class="rounded p-2 shadow-sm bg-white">
+                <div class="rounded overflow-hidden bg-light mb-2">
+                  <img src="assets/images/speech.jpg" width="" height="" alt="img" class="img-fluid">
+                </div>
+                <p class="font-13 line-camp line-camp-2 mb-0">PM Modi louds Status for coperative federalism in COVID-19
+                  fight.</p>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <a href="#" class="fw-500 font-13 read-more-link danger-more-link ">Read More</a>
+                  <span class="circle-tag">H</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-6 row-eq-height">
+              <div class="rounded p-2 shadow-sm bg-white">
+                <div class="rounded overflow-hidden bg-light mb-2">
+                  <img src="assets/images/people-travel.jpg" width="" height="" alt="img" class="img-fluid">
+                </div>
+                <p class="font-13 line-camp line-camp-2 mb-0">PM Modi louds Status for coperative federalism in COVID-19
+                  fight.</p>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <a href="#" class="fw-500 font-13 read-more-link danger-more-link ">Read More</a>
+                  <span class="circle-tag">H</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-6 row-eq-height">
+              <div class="rounded p-2 shadow-sm bg-white">
+                <div class="rounded overflow-hidden bg-light mb-2">
+                  <img src="assets/images/rocket.jpg" width="" height="" alt="img" class="img-fluid">
+                </div>
+                <p class="font-13 line-camp line-camp-2 mb-0">Satelites launched by SSLV in wrong orbit not usable.</p>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <a href="#" class="fw-500 font-13 read-more-link danger-more-link ">Read More</a>
+                  <span class="circle-tag">E</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4">
+          <div>
+            <h2 class="sec-title mb-3">Daily Quiz</h2>
+            <span class="tag-box">#ScienceAndTechnology</span>
+
+            <form method="POST" class="mt-md-5 mt-3 question-form">
+              <h6 class="mb-4">Q. Lorem ipsum dolor sit amet, consecteture adipiscing elit, sed do eismod tempor
+                incididdutn ut labore et.</h6>
+
+              <div class="form-check mb-3 d-flex align-items-md-end">
+                <input class="form-check-input me-2" type="radio" name="qn-option" id="inlineCheckbox1" value="option2"
+                  checked>
+                <label class="form-check-label font-15" for="inlineCheckbox1">Conseterure sadipscing elitr, sed
+                  diam.</label>
+              </div>
+              <div class="form-check mb-3 d-flex align-items-md-end">
+                <input class="form-check-input me-2" type="radio" name="qn-option" id="inlineCheckbox2" value="option2"
+                  checked>
+                <label class="form-check-label font-15" for="inlineCheckbox2">Conseterure sadipscing elitr, sed
+                  diam.</label>
+              </div>
+              <div class="form-check mb-3 d-flex align-items-md-end">
+                <input class="form-check-input me-2" type="radio" name="qn-option" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label font-15" for="inlineCheckbox3">Dolor sit amet, consetetr sadipscing
+                  elitr, sed diam.</label>
+              </div>
+              <div class="form-check d-flex align-items-md-end">
+                <input class="form-check-input me-2" type="radio" name="qn-option" id="inlineCheckbox4" value="option4">
+                <label class="form-check-label font-15" for="inlineCheckbox4">Lorem ipsum dolor sit amet, consetetur
+                  sadipscing.</label>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between mt-4 pt-4">
+                <button type="submit" class="btn btn-md btn-ligh-dark-blue shadow-sm">Submit</button>
+
+                <div class="d-flex align-items-center">
+                  <div class="font-13">
+                    <span class="fw-500 dark-heading-color">1</span> <span>/05</span>
+                  </div>
+                  <div class="ms-4">
+                    <button type="btn" class="btn btn-md next-pre-btn shadow-sm me-2"><i
+                        class="fa-solid fa-arrow-left"></i></button>
+                    <button type="btn" class="btn btn-md next-pre-btn shadow-sm active"><i
+                        class="fa-solid fa-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-4">
+        <div class="col-lg-6 row-eq-height">
+          <div class="rounded shadow-sm bg-white p-4">
+            <div class="d-flex justify-content-between mb-2">
+              <h4>Editorial Analysis</h4>
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Show All</a>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <span class="tag-box me-2">#GS</span>
+              <span class="tag-box me-2">#IndigenisationofTechnology</span>
+              <span class="tag-box mt-sm-0 mt-1">#InformationTechnology</span>
+            </div>
+
+            <h5 class="mb-1"><a href="#" class="link text-decoration-none">Integrating LEO SatNets width terrestial
+                5G</a></h5>
+            <span class="font-12">27 July, 2022</span>
+            <p class="text-sm mt-3">Recently, it has been observed that integrating terrestrial 5G network with LEO
+              satelite networks is the next step in...</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 row-eq-height">
+          <div class="rounded shadow-sm bg-white p-4">
+            <div class="d-flex justify-content-between mb-2">
+              <h4>Headlines of the Day</h4>
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Show All</a>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <span class="tag-box me-2">#PolityandGovernance</span>
+              <span class="tag-box me-2">#TheHindu</span>
+            </div>
+
+            <h5 class="mb-1"><a href="#" class="link text-decoration-none">Can promise of 'irrational' poll freebies be
+                crbed, SC asks govt.</a></h5>
+            <span class="font-12">27 July, 2022</span>
+            <p class="text-sm mt-3">The Supreme Cour on Jly 26 orally aksed the Centre to find out from the Finance
+              Commission whether there is a way to crb political...</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--============ End Quiz ============-->
+
+
+  <!--============ Start Featured Courses ============-->
+  <section class="sec-pd">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="sec-title mb-3">Featured Courses</h2>
+        <p class="sec-title-tag-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+      </div>
+
+      <div class="row justify-content-center gy-4 mt-1">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="rounded shadow featured-box active">
+            <div class="d-flex justify-content-between mb-4">
+              <h3>Classrom<br>Courses</h3>
+              <img src="assets/images/icons/teaching.png" width="54" height="54" alt="Classrom Course">
+            </div>
+            <p class="text-sm">NEXT IAS GS Pre cum Main Foundation course is an exclsively designed course for
+              comprehensive coverage...</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Learn More</a>
+              </div>
+              <span class="font-12">Enrolled 34K+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="rounded shadow featured-box">
+            <div class="d-flex justify-content-between mb-4">
+              <h3>Online<br>Courses</h3>
+              <img src="assets/images/icons/online-training.png" width="54" height="54" alt="Online Course">
+            </div>
+            <p class="text-sm">In today's society, Live/Online classes are becoming an important part of a student's
+              life. Due to professional...</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Learn More</a>
+              </div>
+              <span class="font-12">Enrolled 21K+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="rounded shadow featured-box">
+            <div class="d-flex justify-content-between mb-4">
+              <h3>Test<br>Series</h3>
+              <img src="assets/images/icons/exam-online-test.png" width="54" height="54" alt="Test Series">
+            </div>
+            <p class="text-sm">NEXT IAS offers All India GS Prelims test series which are designed and condcted int the
+              same way...</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Learn More</a>
+              </div>
+              <span class="font-12">Enrolled 52K+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="rounded shadow featured-box">
+            <div class="d-flex justify-content-between mb-4">
+              <h3>Postal<br>Courses</h3>
+              <img src="assets/images/icons/postal-course.png" width="54" height="54" alt="Postal Course">
+            </div>
+            <p class="text-sm">Postal Study Course, offered by NEXT IAS, is designed specifically to cater the needs of
+              all the aspirants who...</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Learn More</a>
+              </div>
+              <span class="font-12">Enrolled 18K+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="rounded shadow featured-box">
+            <div class="d-flex justify-content-between mb-4">
+              <h3>Interview<br>Guidance</h3>
+              <img src="assets/images/icons/job-interview.png" width="54" height="54" alt="Interview Guidance">
+            </div>
+            <p class="text-sm">NEXT IAS conducts an exclsive course known as "Interview Guidance" under the guidance of
+              Mr.B.Singh...</p>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Learn More</a>
+              </div>
+              <span class="font-12">Enrolled 12K+</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="px-md-0 px-lg-5">
+        <div class="promo-banner book-a-demo bg-blue py-4 px-lg-5 px-md-4 position-relative rounded">
+          <div class="row position-relative justify-content-center" style="z-index: 3;">
+
+            <div class="col-lg-3 col-md-3 col-6">
+              <div class="positon-relative">
+                <div class="rounded p-xl-4 p-md-2 p-2 bg-white shadow book-a-demo-image-box">
+                  <div class="rounded overflow-hidden">
+                    <img src="assets/images/book-a-demo-banner.jpg" width="245" height="200" class="img-fluid"
+                      alt="image">
+                  </div>
+                  <h5 class="mt-3 mb-2 text-center">Hurry!<br>Last Few Seats Left!</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-7 col-12 mt-5 mt-md-0">
+              <div class="ps-md-1 ps-4 pe-4 pe-md-2 ps-md-2">
+                <h3 class="text-white">Attend a FREE Demo Class with out Best Teaches</h3>
+                <p class="text-light fw-300 mt-3 text-sm">Lorem Ipsum dolor sit amet color constant lorem.</p>
+                <a href="#" class="btn btn-sm shadow btn-white">Book A Free Demo</a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-2 col-12 d-md-block d-none">
+              <div class="text-end pe-md-2 pe-md-4">
+                <img src="assets/images/icons/presentation.png" width="120" height="120" class="img-fluid" alt="img">
+              </div>
+            </div>
+          </div>
+
+          <div class="overlay-circle overflow-hidden position-absolute">
+            <div class="position-absolute"></div>
+          </div>
+
+          <ul class="promo-banner-small-circle">
+            <li></li>
+            <li></li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--============ End Featured Courses ============-->
+
+
+  <!--============ Start Roadmap Success ============-->
+  <section class="sec-pd bg-light-blue">
+    <div class="container">
+      <img src="assets/images/roadmap-to-success.png" width="1115" height="405" class="img-fluid" alt="img">
+
+      <div class="text-center mt-5">
+        <h2 class="sec-title mb-3">Your Roadmap to Success</h2>
+        <p class="sec-title-tag-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+        <div>
+          <a href="#" class="btn btn-md btn-danger shadow-sm">View Roadmap</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--============ End Roadmap Success ============-->
+
+
+  <!--============ Start Announcement ============-->
+  <section class="sec-pd">
+    <div class="container">
+      <div class="mt-md-3 mt-4 announcement-container">
+        <div class="rounded shadow position-relative py-4">
+          <div class="announcement-icon position-absolute text-center rounded shadow-sm">
+            <div class="announcement-front">
+              <img src="assets/images/icons/megaphone.png" width="34" height="34" alt="Announcement">
+            </div>
+            <div class="announcement-backside"></div>
+          </div>
+
+          <h2 class="sec-title mb-3 text-center">Announcement</h2>
+
+          <ul class="nav tab-btn-container justify-content-center">
+            <li><button class="btn active">Admission</button></li>
+            <li><button class="btn">Material Uploaded</button></li>
+            <li><button class="btn">Study Material</button></li>
+            <li><button class="btn">New Course</button></li>
+            <li><button class="btn">Answer Keys</button></li>
+            <li><button class="btn">Mains Preparation</button></li>
+          </ul>
+
+          <div class="tab-content-container mt-3">
+
+            <div class="tab-content px-sm-4 px-2">
+              <table class="table">
+                <tbody>
+                  <tr valign="middle">
+                    <td class="text-sm pe text-end text" width="7%">
+                      <div class="border-end pe-2">Jul 15<br>2022</div>
+                    </td>
+                    <td>
+                      <h5 class="text-sm">GS Classroom Course July 2022 - Admission link, last few seat left</h5>
+                      <span class="tag-box">#Classroom</span>
+                      <span class="tag-box">#Online</span>
+                    </td>
+                    <td><a href="#" class="tab-content-link"><i class="fa-solid fa-chevron-right"></i></a></td>
+                  </tr>
+                  <tr valign="middle">
+                    <td class="text-sm pe text-end text">
+                      <div class="border-end pe-2">Jul 15<br>2022</div>
+                    </td>
+                    <td>
+                      <h5 class="text-sm">GS Classroom Course July 2022 - Seat filling fast</h5>
+                      <span class="tag-box">#Classroom</span>
+                    </td>
+                    <td><a href="#" class="tab-content-link"><i class="fa-solid fa-chevron-right"></i></a></td>
+                  </tr>
+                  <tr valign="middle">
+                    <td class="text-sm pe text-end text">
+                      <div class="border-end pe-2">Jul 15<br>2022</div>
+                    </td>
+                    <td>
+                      <h5 class="text-sm">GS Classroom Course July 2022 - Admission link (Batch allotment)</h5>
+                      <span class="tag-box">#Classroom</span>
+                      <span class="tag-box">#Online</span>
+                    </td>
+                    <td><a href="#" class="tab-content-link"><i class="fa-solid fa-chevron-right"></i></a></td>
+                  </tr>
+                  <tr valign="middle">
+                    <td class="text-sm pe text-end text">
+                      <div class="border-end pe-2">Jul 15<br>2022</div>
+                    </td>
+                    <td>
+                      <h5 class="text-sm">GS Classroom Course July 2022 - Admission open</h5>
+                      <span class="tag-box">#Classroom</span>
+                      <span class="tag-box">#Admission</span>
+                    </td>
+                    <td><a href="#" class="tab-content-link"><i class="fa-solid fa-chevron-right"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============ End Announcement ============-->
+
+
+  <!--============ Start Enroll Now Promo Banner ============-->
+  <section class="sec-pd enroll-now-sec">
+    <div class="container">
+      <div class="px-sm-3">
+        <div class="promo-banner enroll-now bg-blue py-4 px-md-4 px-xl-5 position-relative rounded">
+          <div class="row position-relative justify-content-center" style="z-index: 3;">
+
+            <div class="col-lg-3 col-md-3 col-6">
+              <div class="rank-profile rounded p-xl-4 p-md-2 p-2 bg-white shadow position-raltive">
+                <span class="rank-badge">1</span>
+                <div class="rank-thumbnail position-raltive overflow-hidden rounded pt-3 ps-3 pe-3">
+                  <img src="assets/images/user-rank/user-rank-1.png" width="343" height="280" class="img-fluid"
+                    alt="user rank">
+                </div>
+                <h5 class="mt-2">Aishwarya Varma</h5>
+                <p class="mb-0">All India Rank 1<br>(UPSC-CEC 2021</p>
+              </div>
+            </div>
+
+            <div class="col-lg-7 col-md-7 col-12 mt-5 mt-md-0">
+              <div class="ps-md-2 p-md-0 ps-4 pe-4">
+                <span class="tag-box">1 Year/2 Year Course</span>
+                <h3 class="text-white mt-3">GS Pre cum Main Foundation Course</h3>
+                <p class="text-light fw-300 text-sm">For CSE 2023</p>
+                <a href="#" class="btn btn-sm shadow btn-white">Enroll Now</a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-2 d-md-block d-none">
+              <div class="text-end mt-3">
+                <img src="assets/images/icons/webinar.png" width="110" height="110" class="img-fluid" alt="img">
+              </div>
+            </div>
+          </div>
+
+          <div class="overlay-circle overflow-hidden position-absolute">
+            <div class="position-absolute"></div>
+          </div>
+
+          <ul class="promo-banner-small-circle">
+            <li></li>
+            <li></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============ End Enroll Now Promo Banner ============-->
+
+
+  <!--============ Start Why Next IAS ============-->
+  <section class="sec-pd">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="sec-title mb-3 text-center">Why Next IAS</h2>
+        <p class="sec-title-tag-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+        <div>
+          <a href="#" class="fw-500 font-13 read-more-link danger-more-link">Learn More</a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-5">
+        <div class="col-lg-8 col-md-10 col-12 overflow-hidden">
+
+          <div class="feature-container d-flex justify-content-center">
+            <div class="feature-icon-box w-50 position-relative" id="why1">
+              <div class="feautre-icon-front best-faculty-front rounded shadow bg-white text-center position-absolute">
+                <img src="assets/images/icons/presentation-color.png" width="56" height="56" alt="best faculty">
+              </div>
+              <div class="feautre-icon-back rounded shadow position-absolute"></div>
+
+              <div class="strip-bg-circle why-next-ias-strip-circle overflow-hidden wh-120 position-absolute">
+                <ul class="nav m-0"><li><li><li><li><li><li><li><li><li><li><li><li></li></ul>
+              </div>
+            </div>
+            <div class="feature-text-box w-50 position-relative" id="whyRight1">
+              <h3>Best Faculty</h3>
+              <ul class="nav mt-1 flex-column list-style-disc ms-3">
+                <li class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                <li class="text-sm mt-3">Lorem ipsum, dolor sit amet consect adipisicing elit.</li>
+                <li class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--============ End Why Next IAS ============-->
+
+  <!--============ Start Download The Next IAS App ============-->
+  <section class="bg-light-blue sec-pd">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="sec-title mb-3">Download The Next IAS App</h2>
+        <p class="sec-title-tag-text-center">Download lessons and learn anytime,<br> anywhre with the Next IAS app.</p>
+      </div>
+
+      <div class="position-relative">
+        <div id="downloadTheNextIasApp" class="downloadTheNextIasAppSlider carousel slide" data-bs-ride="true">
+
+          <div class="carousel-inner mt-4 pb-2">
+
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-12 d-none d-md-block">
+                  <div class="row h-100 justify-content-evenly align-items-center">
+                    <div class="col-12 text-end">
+                      <div class="text-start position-relative py-2 ps-3 pe-4 text-box rounded shadow-sm bg-white">
+                        <p class="mb-0 font-13">Specially Curated Daily Current Affairs</p>
+                        <div class="star-circle star-circle-right shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="text-start position-relative py-2 ps-3 pe-4 text-box rounded shadow-sm bg-white">
+                        <p class="mb-0 font-13">Test your understanding with Daily MCQ Tests</p>
+                        <div class="star-circle star-circle-right shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 text-end">
+                      <div class="text-start position-relative py-2 ps-3 pe-4 text-box rounded shadow-sm bg-white">
+                        <p class="mb-0 font-13">Special set of Test Series of Prelims</p>
+                        <div class="star-circle star-circle-right shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-12">
+                  <img src="assets/images/screen-shot-mokp.png" width="242" height="500"
+                    class="img-fluid mx-auto d-block download-book-slider-img" alt="img">
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 d-none d-md-block">
+                  <div class="row h-100 justify-content-evenly align-items-center">
+                    <div class="col-12">
+                      <div class="text-start position-relative text-box rounded shadow-sm bg-white">
+                        <div class="h-100 d-flex align-items-center py-2 ps-md-4 ps-xl-5 pe-2"><span class="font-13">Get
+                            extensive Answer Writing Practice</span></div>
+                        <div class="star-circle star-circle-left shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 text-end">
+                      <div class="text-start position-relative text-box rounded shadow-sm bg-white">
+                        <div class="h-100 d-flex align-items-center py-2 ps-md-4 ps-xl-5 pe-2"><span
+                            class="font-13">Live Classes</span></div>
+                        <div class="star-circle star-circle-left shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="text-start position-relative text-box rounded shadow-sm bg-white">
+                        <div class="h-100 d-flex align-items-center py-2 ps-md-4 ps-xl-5 pe-2"><span
+                            class="font-13">Specially Curated Daily Current Affairs</span></div>
+                        <div class="star-circle star-circle-left shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center download-app-btn-container mt-5">
+                <div class="mx-1">
+                    <a href="#" class="app-link-btn rounded shadow-sm bg-white text-decoration-none">
+                      <img src="assets/images/icons/playstore.svg" width="32" height="32" alt="play store">
+                      <div class="ms-3">
+                        <span class="font-12">GET IT ON</span><br>
+                        <span class="fw-500">Google Play</span>
+                      </div>
+                    </a>
+                </div>
+                <div class="mx-1">
+                  <a href="#" class="app-link-btn rounded shadow-sm bg-white text-decoration-none ms-md-4">
+                    <img src="assets/images/icons/apple-logo.svg" width="32" height="32" alt="apple store">
+                    <div class="ms-3">
+                      <span class="font-12">DONWLOAD ON THE</span><br>
+                      <span class="fw-500">Apple Store</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+
+                <div class="col-lg-3 col-md-4 col-12 d-none d-md-block">
+                  <div class="row h-100 justify-content-evenly align-items-center">
+
+                    <div class="col-12 text-end">
+                      <div class="text-start position-relative py-2 ps-3 pe-4 text-box rounded shadow-sm bg-white">
+                        <p class="mb-0 font-13">Specially Curated Daily Current Affairs</p>
+                        <div class="star-circle star-circle-right shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="text-start position-relative py-2 ps-3 pe-4 text-box rounded shadow-sm bg-white">
+                        <p class="mb-0 font-13">Test your understanding with Daily MCQ Tests</p>
+                        <div class="star-circle star-circle-right shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 text-end">
+                      <div class="text-start position-relative py-2 ps-3 pe-4 text-box rounded shadow-sm bg-white">
+                        <p class="mb-0 font-13">Special set of Test Series of Prelims</p>
+                        <div class="star-circle star-circle-right shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-3 col-12">
+                  <img src="assets/images/screen-shot-mokp.png" width="242" height="500"
+                    class="img-fluid mx-auto d-block download-book-slider-img" alt="img">
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 d-none d-md-block">
+                  <div class="row h-100 justify-content-evenly align-items-center">
+                    <div class="col-12">
+                      <div class="text-start position-relative text-box rounded shadow-sm bg-white">
+                        <div class="h-100 d-flex align-items-center py-2 ps-md-4 ps-xl-5 pe-2"><span class="font-13">Get
+                            extensive Answer Writing Practice</span></div>
+                        <div class="star-circle star-circle-left shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 text-end">
+                      <div class="text-start position-relative text-box rounded shadow-sm bg-white">
+                        <div class="h-100 d-flex align-items-center py-2 ps-md-4 ps-xl-5 pe-2"><span
+                            class="font-13">Live Classes</span></div>
+                        <div class="star-circle star-circle-left shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="text-start position-relative text-box rounded shadow-sm bg-white">
+                        <div class="h-100 d-flex align-items-center py-2 ps-md-4 ps-xl-5 pe-2"><span
+                            class="font-13">Specially Curated Daily Current Affairs</span></div>
+                        <div class="star-circle star-circle-left shadow position-absolute bg-white">
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="d-flex justify-content-center download-app-btn-container mt-5">
+                <div class="mx-1">
+                    <a href="#" class="app-link-btn rounded shadow-sm bg-white text-decoration-none">
+                      <img src="assets/images/icons/playstore.svg" width="32" height="32" alt="play store">
+                      <div class="ms-3">
+                        <span class="font-12">GET IT ON</span><br>
+                        <span class="fw-500">Google Play</span>
+                      </div>
+                    </a>
+                </div>
+                <div class="mx-1">
+                  <a href="#" class="app-link-btn rounded shadow-sm bg-white text-decoration-none ms-md-4">
+                    <img src="assets/images/icons/apple-logo.svg" width="32" height="32" alt="apple store">
+                    <div class="ms-3">
+                      <span class="font-12">DONWLOAD ON THE</span><br>
+                      <span class="fw-500">Apple Store</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#downloadTheNextIasApp"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon-custom shadow-sm" aria-hidden="true"><i
+                class="fa-solid fa-arrow-left"></i></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#downloadTheNextIasApp"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon-custom" aria-hidden="true"><i
+                class="fa-solid fa-arrow-right"></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--============ End Download The Next IAS App ============-->
+
+
+  <!--============ Start Next IAS Book ============-->
+  <section class="sec-pd">
+    <div class="container">
+      <div class="row align-items-center justify-content-end">
+        <div class="col-lg-4 col-md-6">
+          <h2 class="sec-title mb-3">NEXT IAS Book</h2>
+          <p class="sec-title-tag-text-center">Lorem ipsum dolor sit amet consect adipisi elit. Odio fuga omnis error
+            recusandae? Molestias ad praesentium minus.</p>
+          <a href="#" class="btn btn-md btn-danger shadow-sm mt-2">Buy Now</a>
+        </div>
+
+        <div class="col-lg-7 col-md-6">
+          <div class="row position-relative book-box-row">
+
+            <div class="col-lg-3 book-box position-absolute first-book rotate-left">
+              <div class="position-absolute front top-right bg-white shadow">
+                <img src="assets/images/b1.png" width="81" height="140" class="img-fluid" alt="img">
+              </div>
+              <div class="position-absolute back shadow back-blue-gradient"></div>
+            </div>
+
+            <div class="col-lg-4 book-box position-absolute second-book rotate-left">
+              <div class="position-absolute front top-top bg-white shadow">
+                <img src="assets/images/b2.png" width="81" height="140" class="img-fluid" alt="img">
+              </div>
+              <div class="position-absolute back shadow back-dark"></div>
+            </div>
+
+            <div class="col-lg-3 book-box position-absolute third-book rotate-right">
+              <div class="position-absolute front bottom-left bg-white shadow">
+                <img src="assets/images/b3.png" width="81" height="140" class="img-fluid" alt="img">
+              </div>
+              <div class="position-absolute back shadow back-blue-gradient"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============ End Next IAS Book ============-->
+
+
+  <!--============ Start Testimonials ============-->
+  <section class="bg-light-color">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6 col-md-6 testi-user-main-col overflow-hidden">
+          <div class="row px-xl-3 px-md-4">
+
+            <div class="col-lg-3 col-4 testi-first-col d-flex flex-column">
+              <div class="testimonial-user-box bg-blue">
+              </div>
+              <div class="testimonial-user-box light-dark-blue-color">
+                <img src="assets/images/testimonial/t1.png" class="img-fluid" width="" height="" alt="img">
+              </div>
+              <div class="testimonial-user-box bg-blue">
+                <img src="assets/images/testimonial/t2.png" class="img-fluid" width="" height="" alt="img">
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-4 testi-second-col d-flex flex-column">
+              <div class="testimonial-user-box bg-blue">
+                <img src="assets/images/testimonial/t3.png" class="img-fluid" width="" height="" alt="img">
+              </div>
+              <div class="testimonial-user-box light-dark-blue-color">
+                <img src="assets/images/testimonial/t4.png" class="img-fluid" width="" height="" alt="img">
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-4 testi-third-col d-flex flex-column">
+              <div class="testimonial-user-box light-dark-blue-color">
+                <img src="assets/images/testimonial/t5.png" class="img-fluid" width="" height="" alt="img">
+              </div>
+              <div class="testimonial-user-box bg-blue">
+                <img src="assets/images/testimonial/t6.png" class="img-fluid" width="" height="" alt="img">
+              </div>
+              <div class="testimonial-user-box light-dark-blue-color">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5 mt-md-0 mb-5 mb-md-0">
+          <h2 class="sec-title mb-3">Testimonials</h2>
+          <p class="sec-title-tag-text-center">Lorem ipsum dolor sit amet consect adipisi elit. Odio fuga omnis error
+            recusandae? Molestias ad praesentium minus.</p>
+          <a href="#" class="btn btn-md btn-danger shadow-sm mt-2">Watch Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============ End Testimonials ============-->
+
+
+  <!--============ Start ============-->
+  <section class="sec-pd">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6">
+          <h2 class="sec-title mb-3">Alumni</h2>
+          <p class="sec-title-tag-text-center">MADE EASY has built on Alumni network consisting of ex- MADE EASY
+            students from a wide variety of sectors who have gone on to use their learnings and skill sin different
+            ways.</p>
+          <a href="#" class="fw-500 font-13 read-more-link blue-more-link">Know More</a>
+        </div>
+        <div class="col-lg-8 col-md-6">
+          <div class="circle-image-container">
+            <ul class="ps-0 position-relative">
+              <li class="shadow overflow-hidden position-absolute">
+                <img src="assets/images/pic1.jpg" class="img-fluid" width="200" height="200" alt="img">
+                </li>
+              <li class="shadow overflow-hidden position-absolute">
+                <img src="assets/images/pic3.jpg" class="img-fluid" width="200" height="200" alt="img">
+                </li>
+              <li class="shadow overflow-hidden position-absolute">
+                <img src="assets/images/pic2.jpg" class="img-fluid" width="200" height="200" alt="img">
+                </li>
+              <li class="shadow overflow-hidden position-absolute">
+                <img src="assets/images/pic4.jpg" class="img-fluid" width="200" height="200" alt="img">
+                </li>
+              <li class="shadow overflow-hidden position-absolute">
+                <img src="assets/images/pic5.jpg" class="img-fluid" width="200" height="200" alt="img">
+                </li>
+              <li class="shadow overflow-hidden position-absolute">
+                <img src="assets/images/pic2.jpg" class="img-fluid" width="200" height="200" alt="img">
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!--promobanner-->
+      <div class="row justify-content-center mt-5 mt-md-4">
+        <div class="col-lg-11 col-12 mt-4">
+          <div class="promo-banner photo-video-youtube-promo-banner bg-blue py-4 px-5 position-relative  rounded">
+            <div class="row justify-content-between align-items-center position-relative" style="z-index: 3;">
+
+              <div class="col-lg-6 col-md-8 col-12">
+                <ul class="nav justify-content-evenly align-items-center icon-box-container position-relative">
+                  <li class="bg-white rounded-4 position-absolute shadow text-center">
+                    <span class="icon-box rounded position-absolute">
+                      <img src="assets/images/icons/image-photo.svg" width="22" height="22" alt="photo">
+                    </span>
+                    <span class="mt-2 d-block">Photo</span>
+                  </li>
+                  <li class="bg-white rounded-4 position-absolute shadow text-center">
+                    <span class="icon-box rounded position-absolute">
+                      <img src="assets/images/icons/play-video-icon.svg" width="22" height="22" alt="photo">
+                    </span>
+                    <span class="mt-2 d-block">Videos</span>
+                  </li>
+                  <li class="bg-white rounded-4 position-absolute shadow text-center">
+                    <span class="icon-box rounded position-absolute">
+                      <img src="assets/images/icons/youtube-icon.svg" width="22" height="22" alt="photo">
+                    </span>
+                    <span class="mt-2 d-block">Youtube</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-12">
+                <div class="text-end pe-4">
+                  <a href="#" class="btn btn-sm shadow btn-white">View Gallery</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="overlay-circle overflow-hidden position-absolute">
+              <div class="position-absolute"></div>
+            </div>
+
+            <ul class="promo-banner-small-circle">
+              <li></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <!--endprobanner-->
+
+    </div>
+  </section>
+  <!--============ End ============-->
+
+
+  <!--============ Start Our Rankers ============-->
+  <section class="sec-pd">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="sec-title mb-3">Our Rankers</h2>
+        <p class="sec-title-tag-text-center">Congratulations All India Rankers from Next IAS</p>
+        <div>
+          <a href="#" class="btn btn-md btn-danger shadow-sm mt-2">Show All</a>
+        </div>
+      </div>
+
+      <div class="row gy-4 gy-md-0 justify-content-evenly mt-5">
+
+        <div class="col-lg-3 col-md-4 px-rankers-2">
+          <div class="rankers-box position-relative">
+            <div class="ranksers-text position-absolute">
+              <div>
+                <span class="rank-no">4</span> <span class="rank-cat">AIR</span>
+              </div>
+              <div class="rankers-name font-13 fw-500">
+                <span>Aishwarya</span><br>
+                <span>Varma</span><br>
+                <span class="font-12 text-muted">(UPSC-CEC 2021)</span>
+              </div>
+            </div>
+            <div class="rankers-img position-absolute overflow-hidden">
+              <div class="rankers-img-bg position-absolute"></div>
+              <div class="ranker-user-pic position-absolute">
+                <img src="assets/images/testimonial/t7.png" width="180" height="180" class="img-fluid" alt="">
+              </div>
+            </div>
+            <a href="#" class="watch-success-btn text-decoration-none position-absolute d-flex flex-column">
+              <span>Watch</span>
+              <span>Suceess</span>
+              <span>Story</span>
+              <i class="fa-solid fa-arrow-right-long mt-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 px-rankers-2">
+          <div class="rankers-box position-relative">
+            <div class="ranksers-text position-absolute">
+              <div>
+                <span class="rank-no">6</span> <span class="rank-cat">AIR</span>
+              </div>
+              <div class="rankers-name font-13 fw-500">
+                <span>Yaksh</span><br>
+                <span>Chadhary</span><br>
+                <span class="font-12 text-muted">(UPSC-CEC 2021)</span>
+              </div>
+            </div>
+            <div class="rankers-img position-absolute overflow-hidden">
+              <div class="rankers-img-bg position-absolute"></div>
+              <div class="ranker-user-pic position-absolute">
+                <img src="assets/images/testimonial/t4.png" width="180" height="180" class="img-fluid" alt="">
+              </div>
+            </div>
+            <a href="#" class="watch-success-btn text-decoration-none position-absolute d-flex flex-column">
+              <span>Watch</span>
+              <span>Suceess</span>
+              <span>Story</span>
+              <i class="fa-solid fa-arrow-right-long mt-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 px-rankers-2">
+          <div class="rankers-box position-relative">
+            <div class="ranksers-text position-absolute">
+              <div>
+                <span class="rank-no">8</span> <span class="rank-cat">AIR</span>
+              </div>
+              <div class="rankers-name font-13 fw-500">
+                <span>Ishita</span><br>
+                <span>Rathi</span><br>
+                <span class="font-12 text-muted">(UPSC-CEC 2021)</span>
+              </div>
+            </div>
+            <div class="rankers-img position-absolute overflow-hidden">
+              <div class="rankers-img-bg position-absolute"></div>
+              <div class="ranker-user-pic position-absolute">
+                <img src="assets/images/testimonial/t3.png" width="180" height="180" class="img-fluid" alt="">
+              </div>
+            </div>
+            <a href="#" class="watch-success-btn text-decoration-none position-absolute d-flex flex-column">
+              <span>Watch</span>
+              <span>Suceess</span>
+              <span>Story</span>
+              <i class="fa-solid fa-arrow-right-long mt-1"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--============ End Our Rankers ============-->
+
+
+  <!--============ Start Made Easy Initiatives ============-->
+  <section class="bg-light-blue sec-pd position-relative">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-12">
+          <h2 class="sec-title mb-3">Made Easy Initiatives</h2>
+          <p class="sec-title-tag-text-center position-relative">Since its inception in year 2001, MADE EASY has lived p
+            its brand value "Bing Learnings MADE EASY". </p>
+        </div>
+
+        <div class="col-lg-8 position-relative mt-4 mt-md-4 mt-xl-0">
+          <ul
+            class="ms-xl-5 position-relative initiatives-logo-container bg-light-blue nav justify-content-center align-items-center">
+            <li>
+              <a href="#" class="d-flex justify-content-center align-items-end h-100">
+                <img src="assets/images/logo/made-easy.png" width="" height="" alt="logo" class="img-fluid">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="d-flex justify-content-center align-items-end h-100">
+                <img src="assets/images/logo/made-easy-publication.png" width="180" height="" alt="logo"
+                  class="img-fluid">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="d-flex justify-content-center align-items-end h-100">
+                <img src="assets/images/logo/next-ias.png" width="180" height="" alt="logo" class="img-fluid">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="d-flex justify-content-center align-items-end h-100">
+                <img src="assets/images/logo/1212imguf_ME-SCHOOL-logo.png" width="180" height="" alt="logo"
+                  class="img-fluid">
+              </a>
+            </li>
+          </ul>
+
+          <div class="strip-bg-circle initiatives-logo-strip-1 overflow-hidden wh-120 position-absolute">
+            <ul class="nav m-0"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+          </div>
+
+          <div class="strip-bg-circle initiatives-logo-strip-2 overflow-hidden wh-120 position-absolute">
+            <ul class="nav m-0"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="dots-design initiatives-sec">
+      <li class="position-absolute bg-red"></li>
+      <li class="position-absolute bg-red"></li>
+      <li class="position-absolute bg-blue"></li>
+      <li class="position-absolute bg-blue"></li>
+    </ul>
+  </section>
+  <!--============ Start Made Easy Initiatives ============-->
+
+
+  <!--============ Start Ready To Join ============-->
+  <section class="ready-to-join-sec position-relative">
+    <div class="container">
+      <div class="px-5 position-relative">
+        <div class="promo-banner ready-to-join bg-blue py-4 px-md-3  px-xl-5 position-absolute rounded">
+          <div class="row position-relative" style="z-index: 3;">
+
+            <div class="col-lg-3 col-md-4 col-12">
+              <div class="position-raltive">
+
+                <div class="ready-to-join-img position-absolute">
+                  <img src="assets/images/boy-ready-to-join.png" width="235" height="309" class="img-fluid"
+                    alt="user rank">
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-7 col-md-8 col-12">
+              <div class="ps-md-5 position-relative ready-to-join-text">
+                <h3 class="text-white mt-3">Ready to join?</h3>
+                <p class="text-light fw-300 text-sm">Enroll Now and avail great discounts on selected courses!</p>
+                <a href="#" class="btn btn-sm shadow btn-white">Enroll Now</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="overlay-circle overflow-hidden position-absolute">
+            <div class="position-absolute"></div>
+          </div>
+
+          <ul class="promo-banner-small-circle">
+            <li></li>
+            <li></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--============ end Ready To Join ============-->
+
+
+  <!--============ Start Footer ============-->
+  <footer class="footer extra-top-pd bg-light-color">
+    <div class="container">
+      <div class="row justify-content-between footer-first-row">
+        <div class="col-lg-4 col-md-4">
+          <div>
+            <img src="assets/images/logo/next-ias.png" width="120" height="" class="img-fluid mb-4" alt="next ias">
+            <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sunt illo ad tenetur
+              quis laboriosam et? Velit quod officiis.</p>
+
+            <ul class="nav mt-md-4 mt-1 pt-2">
+              <li>
+                <a href="#" class="app-link-btn border bg-white text-decoration-none">
+                  <img src="assets/images/icons/playstore.svg" width="18" height="18" alt="play store">
+                  <div class="ms-1">
+                    <span class="font-12">GET IT ON</span><br>
+                    <span class="fw-500 text-sm">Google Play</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="app-link-btn border bg-white text-decoration-none">
+                  <img src="assets/images/icons/apple-logo.svg" width="18" height="18" alt="apple store">
+                  <div class="ms-1">
+                    <span class="font-12">DONWLOAD ON THE</span><br>
+                    <span class="fw-500 text-sm">Apple Store</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="app-link-btn border bg-white text-decoration-none">
+                  <img src="assets/images/icons/windows-logo.svg" width="18" height="18" alt="play store">
+                  <div class="ms-1">
+                    <span class="font-12">Download</span><br>
+                    <span class="fw-500 text-sm">Windows App</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-8 col-12 mt-3 mt-md-0">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-5 col-12 mt-md-0 mt-4">
+              <div class="ps-3">
+                <ul class="nav flex-column footer-link-list">
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">About Us</a></li>
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">Faculty Panel</a></li>
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">Careers</a></li>
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">Gallery</a></li>
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">Privacy Policy</a></li>
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">Terms and Conditions</a></li>
+                  <li class="mb-1"><a href="#" class="text-sm text-decoration-none">Our Initiatives</a></li>
+                  <li><a href="#" class="text-sm text-decoration-none">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-7 col-12 mt-5 mt-md-0">
+              <div class="border-start ps-3">
+                <h5 class="mb-3">NEXT IAS (Delhi)</h5>
+                <ul class="nav flex-column footer-contact-info">
+                  <li class="position-relative">
+                    <span class="footer-info-icon position-absolute">
+                      <img src="assets/images/icons/location-icon.svg" width="13" height="13" alt="">
+                    </span>
+                    <span class="footer-info-text font-13">27-B, Pusa Road, Metro Piller no. 118, Near Karol Bagh Metro,
+                      New Delhi-110060</span>
+                  </li>
+                  <li class="position-relative mt-1 mb-1">
+                    <span class="footer-info-icon position-absolute">
+                      <img src="assets/images/icons/phone-call-icon.svg" width="13" height="13" alt="">
+                    </span>
+                    <span class="footer-info-text font-13">8081300200</span>
+                  </li>
+                  <li class="position-relative">
+                    <span class="footer-info-icon position-absolute">
+                      <img src="assets/images/icons/email-icon.svg" width="13" height="13" alt="">
+                    </span>
+                    <span class="footer-info-text font-13">info@nextias.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mt-xl-0 col-12 mt-5 mt-md-0 mt-xl-0">
+              <div class="border-start ps-3">
+                <h5 class="mb-3">NEXT IAS (Bhopal)</h5>
+                <ul class="nav flex-column footer-contact-info">
+                  <li class="position-relative">
+                    <span class="footer-info-icon position-absolute">
+                      <img src="assets/images/icons/location-icon.svg" width="13" height="13" alt="">
+                    </span>
+                    <span class="footer-info-text font-13">Plot no. 46 Zone - 2 M.P Nagar Bhopal - 462011</span>
+                  </li>
+                  <li class="position-relative mt-1 mb-1">
+                    <span class="footer-info-icon position-absolute">
+                      <img src="assets/images/icons/phone-call-icon.svg" width="13" height="13" alt="">
+                    </span>
+                    <span class="footer-info-text font-13">8827664612, 8081300200</span>
+                  </li>
+                  <li class="position-relative">
+                    <span class="footer-info-icon position-absolute">
+                      <img src="assets/images/icons/email-icon.svg" width="13" height="13" alt="">
+                    </span>
+                    <span class="footer-info-text font-13">infobhopal@nextias.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <hr class="hr mb-0">
+
+      <div class="row justify-content-between align-items-center py-3">
+        <div class="col-md-6 col-12">
+          <p class="mb-0 text-sm">@2022 NEXT IAS. All right reserved.</p>
+        </div>
+        <div class="col-md-6 col-12 mt-3 mt-md-0">
+          <ul class="nav justify-content-md-end footer-social-link-list">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!--============ End Footer ============-->
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
