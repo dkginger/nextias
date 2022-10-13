@@ -360,6 +360,13 @@
 @media (max-width: 768px) {}
 
 @media (max-width: 440px) {
+    .sec-pd{
+        padding: 60px 15px;
+    }
+    .testimonial-sec, .footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .navbar {
         padding-top: 1rem !important;
     }
